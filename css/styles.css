@@ -29,6 +29,7 @@ section {
     width: 150px;
     height: 150px;
     float: left;
+    align-items: center;
 }
 
 .info {

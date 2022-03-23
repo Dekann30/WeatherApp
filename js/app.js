@@ -26,7 +26,12 @@ $button.on('click', () => {
             const descrCap = capLetters.join(' ')
             $('#weather').text(`${mainW} - ${descrCap}`)
 
-            
+            const $png = $('<img id="png">')
+            $png.attr('src', `http://openweathermap.org/img/wn/${data2.current.weather[0].icon}@2x.png`)
+            $png.appendTo('.icon')
+
+            $button.on('click', () => {
+                $('.icon').children().last().remove()})
         })
     })
 })
