@@ -25,6 +25,8 @@ $button.on('click', () => {
             
             const descrCap = capLetters.join(' ')
             $('#weather').text(`${mainW} - ${descrCap}`)
+
+            
         })
     })
 })

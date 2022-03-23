@@ -1,7 +1,42 @@
 body {
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+header {
+    text-decoration: underline overline;
+    height: 55px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 150px;
+    height: 150px;
+    float: left;
 }
 
 .info {
     list-style-type: none;
+    float: left;
+    width: 150px;
+}
+
+.info li {
+    font-weight: bold;
 }
